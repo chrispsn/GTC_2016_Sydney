@@ -1,6 +1,5 @@
 Option Explicit
 
-
 Function save_settings(lo As ListObject) As Collection
 
     Set save_settings = New Collection
@@ -12,7 +11,6 @@ Function save_settings(lo As ListObject) As Collection
 
 End Function
 
-
 Sub load_settings(lo As ListObject, saved_settings As Collection)
 
     lo.ShowHeaders = saved_settings("ShowHeaders")
@@ -20,7 +18,6 @@ Sub load_settings(lo As ListObject, saved_settings As Collection)
     lo.ShowAutoFilter = saved_settings("ShowAutoFilter")
 
 End Sub
-
 
 Sub resize_databodyrange(lo As ListObject, row_size As Long)
 
