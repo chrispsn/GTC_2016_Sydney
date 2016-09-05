@@ -1,22 +1,19 @@
-Sub email_sheet_as_PDF(ws as Worksheet)
+Sub email_sheet_as_PDF(ws As Worksheet, PDF_temp_path As String)
 
-    Dim PDF_export_path As String
-    PDF_export_path = "your\path\export.pdf"
-
-    Call ws.ExportAsFixedFormat( _ 
+    Call ws.ExportAsFixedFormat( _
         Type:=xlTypePDF, _
-        Filename:=PDF_export_path _
+        Filename:=PDF_temp_path _
     )
 
     With get_outlook_app().CreateItem(0)
         .To = "you@audience.com"
         .Subject = "Hi GTC!"
         .Body = "Hello."
-        .Attachments.Add (PDF_export_path)
+        .Attachments.Add (PDF_temp_path)
         .Display
     End With
 
-    Kill PDF_export_path
+    Kill PDF_temp_path
     
 End Sub
 
