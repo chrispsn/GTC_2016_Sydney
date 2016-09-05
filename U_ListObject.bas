@@ -19,7 +19,7 @@ Sub load_settings(lo As ListObject, saved_settings As Collection)
 
 End Sub
 
-Sub resize_databodyrange(lo As ListObject, row_size As Long)
+Sub delete_and_resize_databodyrange(lo As ListObject, row_size As Long)
 
     Dim saved_lo_settings As Collection
     Set saved_lo_settings = save_settings(lo)
