@@ -1,3 +1,5 @@
+' More on how to use Regular Expressions here: http://stackoverflow.com/a/22542835
+
 Option Explicit
 
 Function get_first_match(RE_pattern As String, within_text As String) As String
