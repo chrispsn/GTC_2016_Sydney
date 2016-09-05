@@ -1,9 +1,9 @@
-Sub email_sheet_as_PDF()
+Sub email_sheet_as_PDF(ws as Worksheet)
 
     Dim PDF_export_path As String
     PDF_export_path = "your\path\export.pdf"
 
-    Call Worksheets("output").ExportAsFixedFormat( _ 
+    Call ws.ExportAsFixedFormat( _ 
         Type:=xlTypePDF, _
         Filename:=PDF_export_path _
     )
