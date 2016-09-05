@@ -27,7 +27,8 @@ Sub delete_and_resize_databodyrange(lo As ListObject, row_size As Long)
     With lo
 
         If Not .DataBodyRange Is Nothing Then
-            ' Need headers on - otherwise may delete table when DataBodyRange is deleted
+            ' Need headers on - otherwise may delete entire ListObject
+            ' when DataBodyRange is deleted
             .ShowHeaders = True
             .DataBodyRange.Delete
         End If
