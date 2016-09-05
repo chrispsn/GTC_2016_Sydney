@@ -8,6 +8,6 @@ Public Function get_first_match(RE_pattern As String, within_text As String) As 
     RE.pattern = RE_pattern
     RE.Global = False
     
-    get_text = RE.Execute(within_text).Item(0).Value
+    get_first_match = RE.Execute(within_text).Item(0).Value
 
 End Function
