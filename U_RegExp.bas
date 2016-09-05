@@ -1,6 +1,6 @@
 Option Explicit
 
-Public Function get_first_match(RE_pattern As String, within_text As String) As String
+Function get_first_match(RE_pattern As String, within_text As String) As String
 ' Return the first substring of within_text that matches the pattern specified.
 
     Dim RE As Object
