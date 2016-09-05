@@ -26,9 +26,12 @@ Sub resize_databodyrange(lo As ListObject, row_size As Long)
 
     With lo
 
-        ' Need headers on - otherwise may delete table when DataBodyRange is deleted
-        .ShowHeaders = True
-        If Not .DataBodyRange Is Nothing Then: .DataBodyRange.Delete
+        If Not .DataBodyRange Is Nothing Then
+            ' Need headers on - otherwise may delete table when DataBodyRange is deleted
+            .ShowHeaders = True
+            .DataBodyRange.Delete
+        End If
+        
         If row_size > 0 Then
             .ListRows.Add
             .ShowHeaders = False
