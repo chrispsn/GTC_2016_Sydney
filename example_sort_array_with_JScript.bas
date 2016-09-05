@@ -1,7 +1,7 @@
 Option Explicit
 
 Function sort_array(some_array)
-' https://en.m.wikipedia.org/wiki/Windows_Script_File#Mixed_language_support
+' Inspired by https://en.m.wikipedia.org/wiki/Windows_Script_File#Mixed_language_support
 ' TODO still need to figure this one out - intermediate results are being converted to strings?
 
     Dim sc As Object
