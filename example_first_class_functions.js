@@ -12,10 +12,9 @@ var lo = wb.Worksheets("Sheet1").ListObjects("table_test")
 
 // Do something
 function change_data(lo) {
-   with (lo.DataBodyRange.Cells(2, 1)) {
-       Value2 = Math.random();
-       return Value2
-   }
+   var cell = lo.DataBodyRange.Cells(2, 1);
+   cell.Value2 = Math.random();
+   return cell.Value2
 }
 
 var result = U_GlobalsMgmt.temp_disable_screenupdating(
