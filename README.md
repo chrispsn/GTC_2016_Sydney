@@ -1,6 +1,8 @@
-# Automation in finance: programming as a business user in an enterprise environment
+# Programming as a business user in an enterprise environment
 
 Notes from a talk given in 2016 at Sydney's ModelOff Global Training Camp.
+
+Central theme: how can you automate tasks if you have a Windows machine and can use Excel/VBA, but can't download or compile any new programs?
 
 Files starting with 'U' are intended to be generic code that can be called upon when necessary.
 
