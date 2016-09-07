@@ -2,7 +2,7 @@
 
 Notes from a talk given in 2016 at Sydney's ModelOff Global Training Camp.
 
-Central theme: how can you automate tasks if you have a Windows machine and can use Excel/VBA, but can't:
+Central theme: how can you automate tasks if you have a Windows machine, Microsoft Office and VBA, but can't:
 
 - download any programs that aren't included with Windows, or
 - create new programs by compiling source code?
