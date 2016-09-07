@@ -7,7 +7,7 @@ Central theme: how can you automate tasks if you have a Windows machine, Microso
 - download any programs that aren't included with Windows, or
 - create new programs by compiling source code?
 
-Files starting with 'U' are intended to be generic code that can be called upon when necessary.
+Files in this repository starting with 'U' are intended to be generic code that can be called upon when necessary.
 
 ## High-level Excel
 
