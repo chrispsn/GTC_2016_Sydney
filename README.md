@@ -7,6 +7,8 @@ Central theme: how can you automate tasks if you have a Windows machine, Microso
 - download any programs that aren't included with Windows, or
 - create new programs by compiling source code?
 
+Discussion of .NET, and PowerShell in particular, was omitted due to time constraints.
+
 Files in this repository starting with 'U' are intended to be generic code that can be called upon when necessary.
 
 ## High-level Excel
