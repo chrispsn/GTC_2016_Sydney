@@ -12,7 +12,7 @@ Designing models to facilitate automation.
 - Structured references can be a clearer way to express what you mean, and are potentially more resilient to changes in your spreadsheets
 - Named ranges are useful when you know exactly how many cells will be needed, such as a TRUE/FALSE setting, or the four suits in a deck of cards
 - Excel tables (known as ListObjects in VBA) are useful when you don't know how much data you'll need to store (zero or more rows)
-- Excel tables are also useful for separating inputs and calculations: you can set up a table so that all of its columns are calculated columns, and expand it to the size you need (see the file Utils_ListObject.bas)
+- Excel tables are also useful for separating inputs and calculations: you can set up a table so that all of its columns are calculated columns, and expand it to the size you need (see the file U_ListObject.bas)
 - Be aware that errors can occur, and you should be aware of how to manage them in VBA code (particularly if you intend on fully automating a process).
 
 ## Extending VBA
