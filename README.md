@@ -33,7 +33,7 @@ How to overcome VBA’s limitations.
 - As a more powerful alternative to the Command Prompt, Windows' Scripting Host can be used to code your machine using languages very similar to VBA (**VBScript**) and JavaScript (**JScript**) - you can use them to script Excel and trigger VBA macros, and can use the same COM knowledge that you can use in VBA
 - Windows' Task Scheduler can be used to schedule execution of programs or scripts, including batch files and VBScript/Jscript files (using **cscript**).
 
-JScript has a lot of potential:
+JScript has potential:
 
 - it's more powerful than VBA or VBScript (you can use functions as inputs to other functions - see U_GlobalsMgmt.js)
 - it can be called from within VBA using ScriptControl (see file example_sort_array_with_JScript.bas)
