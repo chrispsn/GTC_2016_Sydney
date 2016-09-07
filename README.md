@@ -36,6 +36,7 @@ How to overcome VBA’s limitations.
 JScript has a lot of potential:
 
 - it's more powerful than VBA or VBScript (you can use functions as inputs to other functions - see U_GlobalsMgmt.js)
+- it can be called from within VBA using ScriptControl (see file example_sort_array_with_JScript.bas)
 - JavaScript has a very active and open community
 - it can be a basis on which to build other languages (such as TypeScript) - all the language needs is a compiler written in JavaScript
 - it can be easily extended easily by downloading scripts as plain text (see the templating and Google Closure examples)
