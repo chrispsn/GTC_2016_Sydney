@@ -11,7 +11,7 @@ Discussion of .NET, and PowerShell in particular, was omitted due to time constr
 
 Files in this repository starting with 'U' are intended to be generic code that can be called upon when necessary.
 
-## High-level Excel
+## High-Level Excel
 
 Designing models to facilitate automation.
 
