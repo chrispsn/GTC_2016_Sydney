@@ -18,7 +18,7 @@ Designing models to facilitate automation.
 - Named ranges are useful when you know exactly how many cells will be needed, such as a TRUE/FALSE setting, or the four suits in a deck of cards
 - Excel tables (known as ListObjects in VBA) are useful when you don't know how much data you'll need to store (zero or more rows)
 - Excel tables are also useful for separating inputs and calculations: you can set up a table so that all of its columns are calculated columns, and expand it to the size you need (see the file U_ListObject.bas)
-- Be aware that errors can occur, and you should be aware of how to manage them in VBA code (particularly if you intend on fully automating a process).
+- Be aware of how to manage errors using VBA code (particularly if you intend on fully automating a process).
 
 ## Extending VBA
 
@@ -44,6 +44,6 @@ JScript has potential:
 - it can be called from within VBA using ScriptControl (see example_sort_array_with_JScript.bas)
 - JavaScript has a very active and open community
 - it can be a basis on which to build other languages (such as TypeScript) - all the language needs is a compiler written in JavaScript
-- it can be easily extended easily by downloading scripts as plain text (see the templating and Google Closure examples)
+- it can be easily extended easily by downloading scripts as plain text (see example_handlebars_templating.js and example_google_closure_integration.js)
 - it is highly resilient (all you really need is a web browser)
 - it potentially offers a migration path if you ever want to move an Excel workbook's functions to the web.
